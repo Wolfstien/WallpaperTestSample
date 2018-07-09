@@ -88,4 +88,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void stop(View view) {
+        WorkManager.getInstance().cancelAllWork();
+    }
 }
